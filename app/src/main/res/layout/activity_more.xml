@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/facebook_Deepblue"
+        android:gravity="center"
+        android:text="문지원"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+
+
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/background_3"
+            android:id="@+id/ImageView_Background"
+            android:background="@color/facebook_Deepblue"
+            />
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/profile_2"
+            android:layout_alignBottom="@+id/ImageView_Background"
+            android:layout_centerInParent="true"
+            />
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="문지원"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#000000"
+
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="_자기소개_"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="안녕하십니까. 이번에 와플스튜디오 17.5기 신입 모집에 지원하게
+        된 재료공학부 17학번 문지원입니다."
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="내 손으로 무엇인가를 상상하고 그것을 실현할 수 있다는 코딩에 매력을 느껴 앱개발을 배우고자 이번 와플스튜디오 프로그래머 모집에 지원하게 되었습니다."
+        android:textColor="#000000" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="사실 자기소개서 앱에 뭐를 넣어야할지 감이 잘 안와서 SNS,동아리 등 저와 관련된 것들은 마구 집어넣었습니다."
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="부족한 실력이지만 좋게 봐주셨으면 좋겠습니다. 감사합니다."
+        android:textColor="#000000"
+        android:layout_marginBottom="10dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="_SNS_"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="10dp"
+    >
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/btn_white"
+        android:src="@drawable/iconfinder_instagram"
+        android:id="@+id/Button_Instagram"
+        />
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:src="@drawable/iconfinder_facebook_small"
+            android:background="@drawable/btn_white"
+            android:id="@+id/Button_facebook"
+            />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Instagram"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginLeft="80dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Facebook"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginLeft="110dp"
+            android:layout_marginRight="50dp"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
